@@ -31,7 +31,43 @@
       height: 100%;
       transition: width 0.5s ease;
     }
+    form {
+      margin-bottom: 2rem;
+    }
+    input[type="number"] {
+      padding: 0.5rem;
+      margin-right: 0.5rem;
+      width: 8rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Vaqui
+  <h1>Vaquinha Conecta Phoenix - Guardians</h1>
+
+  <form class="donation-form">
+    <label for="amount">Valor da doação (R$):</label>
+    <input type="number" id="amount" placeholder="10" />
+    <button type="submit">Doar</button>
+  </form>
+
+  <div class="progress-bar">
+    <div class="progress" style="width: 50%;"></div>
+  </div>
+
+  <section class="reward">
+    <h2>Tier 1 - R$50</h2>
+    <p>Agradecimento especial.</p>
+  </section>
+
+  <section class="reward">
+    <h2>Tier 2 - R$100</h2>
+    <p>Camisa exclusiva.</p>
+  </section>
+
+  <section class="reward">
+    <h2>Tier 3 - R$200</h2>
+    <p>Ingresso para evento especial.</p>
+  </section>
+
+</body>
+</html>
